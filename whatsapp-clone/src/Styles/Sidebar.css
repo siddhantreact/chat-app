@@ -1,0 +1,105 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sidebar_header{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    margin: 1rem 1rem;
+ 
+ 
+}
+
+.search_bar{
+    border: none;
+  
+}
+
+
+.sidebar_search{
+
+    height: 2rem;
+    width: fit-content;
+    background-color: #ebedeb;
+    margin: 0 1rem;
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar_search_container{
+
+    background-color: white;
+
+    padding: 2px auto;
+
+
+    
+}
+
+
+
+
+.sidebar_main_container{
+
+ 
+    border: 1px solid gray;
+    background-color: #dadeb3;
+    flex-basis: 5rem;
+
+    
+     
+}
+
+
+.sidebar_chatinfo{
+    
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+ 
+}
+
+
+.chat_rooms_info{
+
+    /* display: flex;
+    flex-direction: column; */
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+    background-color: white;
+
+    overflow-y: scroll;
+    height: 60.9vh;
+}
+
+
+
+
+.sidebar_chatinfo>h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+   
+}
+
+.sidebar_options{
+
+    display: flex;
+}
+
+
+

@@ -1,0 +1,22 @@
+
+
+.grid{
+
+    display: grid;
+    place-content: center;
+}
+
+
+.gridTwoContainer{
+
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+
+.gridOneContainer{
+
+    grid-template-columns: repeat(1,1fr);
+    
+}
+

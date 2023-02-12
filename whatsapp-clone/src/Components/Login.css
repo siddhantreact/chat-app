@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login_container{
+
+    /* display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    gap: 2rem; */
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin: 14rem 2rem;
+
+
+}
+
+.login_container>img{
+
+    width: 50%;
+    margin-left: 5rem;
+}
+
+.child_container{
+     
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.child_container>Button{
+
+    text-transform: capitalize;
+    background-color: green;
+    color: black;
+    font-weight: 700;
+}
